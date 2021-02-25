@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import Iconcopytext from './Iconcopytext';
 
 import './App.css';
 
@@ -35,30 +36,22 @@ class App extends Component {
           <div>
             <img src="./images/icon1.png" className="Icons" alt="icon" />
             <h3 className="icontext">Declarative</h3>
-            <p className="icontext">
-              React makes it painless to create interactive UIs.
-            </p>
+            <Iconcopytext text="React makes it painless to create interactive UIs." />
           </div>
           <div>
             <img src="./images/icon2.png" className="Icons" alt="icon" />
             <h3 className="icontext">Components</h3>
-            <p className="icontext">
-              Build encapsulated components that manage their state.
-            </p>
+            <Iconcopytext text="Build encapsulated components that manage their state." />
           </div>
           <div>
             <img src="./images/icon3.png" className="Icons" alt="icon" />
             <h3 className="icontext">Single-Way</h3>
-            <p className="icontext">
-              A set of immutable values are passed to the component's.
-            </p>
+            <Iconcopytext text="Build encapsulated components that manage their state." />
           </div>
           <div>
             <img src="./images/icon4.png" className="Icons" alt="icon" />
             <h3 className="icontext">JSX</h3>
-            <p className="icontext">
-              Statically typed, designed to run on modern browsers.
-            </p>
+            <Iconcopytext text="Statically typed, designed to run on modern browsers." />
           </div>
         </div>
       </div>
