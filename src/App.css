@@ -1,22 +1,73 @@
 .App {
-  text-align: center;
+  text-align: left;
+  font-family: 'Lato', sans-serif;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 3vmin;
+}
+
+.Ironhack-logo {
+  min-width: 0.5vmin;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1f2536;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /*
+  background-image: url("./images/react-logo.svg");
+*/
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+.logos {
+  width: 100;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.headline-and-copytext {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+.hello-react-headline {
+  font-weight: 900;
+  font-size: 10vh;
+  margin-bottom: 0;
+  padding-top: 13vh;
+}
+
+.awesome {
+  height: 8vh;
+  width: 20vw;
+  font-family: 'Lato', sans-serif;
+  font-size: 2.5vh;
+  font-weight: 800;
+  color: #1f2536;
+  margin-top: 6vh;
+}
+
+.whitespace {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20vh;
+  padding-left: 30px;
+  padding-bottom: 20vh;
+}
+
+.icontext {
+  padding-left: 20px;
 }
