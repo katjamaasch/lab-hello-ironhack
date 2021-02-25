@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
-import Iconcopytext from './Iconcopytext';
+import Iconcopytext from './Components/Iconcopytext';
 
 import './App.css';
 
